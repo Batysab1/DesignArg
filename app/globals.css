@@ -124,4 +124,11 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Center content horizontally and vertically on the page */
+  html {
+    @apply h-full;
+  }
+  body {
+    @apply h-full flex flex-col items-center justify-start;
+  }
 }
